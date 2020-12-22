@@ -1,3 +1,19 @@
+
+body {
+    background-color: #fcf8f1;
+}
+
+#barranavegacao, #contato, #curriculovirtual  {
+    text-align: center;
+}
+
+#background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 #esquerda {
     width: 50%;
     height: 500px;
@@ -16,34 +32,19 @@
     padding: 20px;
 }
 
-#background {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
 #fotocurriculo {
     width: 300px;
     text-align: center;
-}
-
-#barranavegacao, #contato, #curriculovirtual  {
-    text-align: center;
-}
-
-footer{
-    color: black;
-    text-align: center;
-    font-style: italic;
-}
-
-body {
-    background-color: #fcf8f1;
 }
 
 #curriculotext {
     Text-align: justify;
     width: 80%;
     padding: 10% 10%;
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-style: italic;
 }
